@@ -1,0 +1,106 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}   
+
+.logo {
+    margin-left: 10px;
+    padding-top: 20px;
+    width: 120px;
+    height: 48px;
+}
+
+.apresentacao {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.apresentacao__texto {
+    border: none;
+    color: #0A3871;
+    margin-top: 168px;
+    text-transform: lowercase;
+    resize: none;
+}
+
+::placeholder {color:#0A3871;}
+    .apresentacao__texto:focus {
+        outline: none;
+    }
+
+.apresentacao__texto:focus {
+    outline: none;
+}
+
+.apresentacao__info {
+    color:#495057;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.apresentacao__lateral__mensagem {
+    background: #ffff;
+    background-image: url(img/boneco.jpg);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position:fixed
+}
+
+.apresentacao__lateral__mensagem:focus {
+    outline: none
+}
+
+.apresentacao__btn {
+    display: flex;
+    margin-top: 18px;
+    position: fixed;
+}
+
+.apresentacao__btn__encriptar{
+    background-color:#0A3871;
+    border: 1px solid#0A3871;
+    border-radius: 24px;
+    color: #ffff;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.apresentacao__btn__desencriptar {
+    background-color:#D8DFE8;
+    border: 1px solid#0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.apresentacao__lateral__btncopiar{
+    border: 1px solid#0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 408px;
+    width: 336px;
+    font-size: 16px;
+    line-height: 19.36px;
+    position: absolute;
+}
