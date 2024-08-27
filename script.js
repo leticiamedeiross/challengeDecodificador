@@ -15,6 +15,7 @@ function encriptar(stringEncriptada) {
             stringEncriptada = stringEncriptada.replaceAll(matrizCodigo[i][0], matrizCodigo[i][1]);
         }
     }
+    
     document.querySelector('.apresentacao__lateral__mensagem').style.backgroundImage = 'none';
     return stringEncriptada;
 }
